@@ -2,14 +2,14 @@
 
 import random
 
-list_of_words = "avere fatto right phone book bottle ball paper neumann wallet picture never earbuds".upper()
+list_of_words = "avere fatto right phone book bottle ball paper neumann wallet picture never earbuds shirt boobs chimney door chair square wall pepper".upper()
 word = list(random.choice(list_of_words.split()))
 empty = list("_"*len(word))
 guessed_letters = []
 
 print "= "*50
-print "Welcome to hangman, you have seven chances to get the mystery word."
-print "You have %d attempts to get the right word" %(len(word)+3)
+print "Welcome to hangman, try to get the mystery word."
+print "You have %d attempts to get it right" %(len(word)+3)
 print " ".join(empty)
 
 count = 1
