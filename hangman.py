@@ -2,7 +2,7 @@
 
 import random
 
-list_of_words = "avere fatto right phone book bottle ball paper neumann wallet picture never".upper()
+list_of_words = "avere fatto right phone book bottle ball paper neumann wallet picture never earbuds".upper()
 word = list(random.choice(list_of_words.split()))
 empty = list("_"*len(word))
 guessed_letters = []
