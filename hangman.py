@@ -34,7 +34,8 @@ while count<=(len(word)+3):
 		break
 	elif count==(len(word)+3) and "_" in empty:
 		print "Too late, you did not get the right word!"
+		print "the word was "+"".join(word)
 	else:
-		print "Now guess the next word"
+		print "Now guess the next letter"
 
 	count+=1
